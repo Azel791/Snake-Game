@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="src/indexStyle.css">
+</head>
+<body>
+    
+    
+    <div class="mainMenu" id="mainMenu">
+
+        <div class="bg">
+            <h1>Snake</h1>
+        </div>
+        <button class="start" id="start">Start</button>
+
+    </div>
+    
+    <h4 class="scoreBoard" id="scoreBoard">Score:&nbsp;<span id="score">0</span></h4>
+    <div class="game" id="game">
+        <div class="food" id="food"></div>
+        <div class="snakeHead" id="snakeHead"></div>
+
+        <div class="snakeBody snake" id="snakeBody"></div>
+        <div class="snakeBody snake" id="snakeBody"></div>
+        <div class="snakeBody snake snakeTail" id="snakeBody"></div>
+        
+        <div class="gameoverbg" id="gameoverbg"></div>
+        <div class="gameover" id="gameover">
+
+            <h2>Game Over!</h2>
+            <button class="gameoverok" onclick="location.reload()">Main Menu</button>
+
+        </div>
+        
+    </div>
+    <script src="src/indexScripts.js"></script>
+</body>
+</html>
